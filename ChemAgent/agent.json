@@ -1,0 +1,11 @@
+{
+    "name": "ChemAgent",
+    "label": "Chemistry Agent",
+    "expose": true,
+    "description": "Chemistry research agent with speed mode and MoE mode",
+    "globalContext": {
+    },
+    "entry": "../../AgentNodeMain.mjs",
+    "chatEntry": "ChemAgent.js",
+    "agents": ["ChemAgent.js", "agent.js", "speed.js"]
+}

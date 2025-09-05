@@ -1,0 +1,12 @@
+{
+    "name": "WebAgent",
+    "label":"WebAgent",
+    "expose": true,
+    "description":"Web RPA agent.",
+    "globalContext":{
+    },
+	"entry":"../../AgentNodeMain.mjs",
+    "chatEntry":null,
+    "agents":["agent.js"],
+    "tools":["agent.js"]
+}
