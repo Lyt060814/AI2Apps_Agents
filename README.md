@@ -36,7 +36,6 @@ All the agents are built in [AI2Apps platform](https://github.com/Avdpro/ai2apps
 
 #### Communication & Integration
 - **wechat** - WeChat integration agent
-- **tabos** - TabOS system integration
 
 #### Deployment & Testing
 - **AutoDeploy** - Automated deployment tools
@@ -101,6 +100,19 @@ All the agents are built in [AI2Apps platform](https://github.com/Avdpro/ai2apps
 }
 ```
 
+## 🔒 Privacy & Security
+
+This repository has been carefully cleaned to ensure no sensitive information is exposed:
+
+- **Sensitive directories excluded**: Certain directories containing sensitive code (like WeChat integration details) are excluded from version control
+- **Git history cleaned**: All sensitive information has been completely removed from Git history
+- **Privacy-first approach**: Only safe, non-sensitive code is publicly available
+
+### Excluded Components
+- Sensitive integration code and configurations
+- API keys and authentication tokens
+- Private user data and credentials
+
 ## 🔄 Development Mode
 
 ### Project Setup
@@ -131,4 +143,4 @@ await setupAgent(session, path, "EN");
 
 ---
 
-*Last updated: 2025-09-06*
+*Last updated: 2025-01-09*
